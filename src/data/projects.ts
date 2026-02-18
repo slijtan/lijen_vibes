@@ -32,7 +32,7 @@ export const projects: Project[] = [
     tagline: 'Animation Studio',
     description:
       'Turn everyday toys into animated films, frame by frame. AI-powered hand removal and an intuitive creator make stop motion accessible to anyone with a phone and an imagination.',
-    url: '#',
+    url: 'https://stopmagic.fun',
     icon: 'animation',
   },
 ]
