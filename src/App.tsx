@@ -8,7 +8,7 @@ function App() {
       <div className="max-w-[1080px] mx-auto px-10 pt-20 pb-16">
         <p
           className="text-[32px] md:text-[48px] font-bold tracking-[-0.04em] leading-[1.1] mb-1 bg-clip-text text-transparent w-fit"
-          style={{ backgroundImage: 'linear-gradient(to right, #fca5a5, #fdba74, #fde68a, #86efac, #93c5fd, #c4b5fd, #f9a8d4)' }}
+          style={{ backgroundImage: 'linear-gradient(to right, #e63946, #f4845f, #f7b267, #f7d794, #43b89c, #2ec4b6, #0b9a8d)' }}
         >
           Lijen Vibes.
         </p>
