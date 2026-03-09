@@ -19,7 +19,7 @@ export const projects: Project[] = [
   },
   {
     id: 'fableforge',
-    name: 'FableForge',
+    name: 'Fable Forge',
     tagline: 'Interactive Fiction',
     description:
       'An AI dungeon master that weaves epic tales chapter by chapter. Every choice shapes the narrative — with combat, loot, and consequences that adapt to each young adventurer.',
@@ -28,7 +28,7 @@ export const projects: Project[] = [
   },
   {
     id: 'stopmotion',
-    name: 'Stop Motion Magic',
+    name: 'Stop Magic',
     tagline: 'Animation Studio',
     description:
       'Turn everyday toys into animated films, frame by frame. AI-powered hand removal and an intuitive creator make stop motion accessible to anyone with a phone and an imagination.',

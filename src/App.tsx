@@ -16,8 +16,8 @@ function App() {
           Apps built from vibes.
         </h1>
         <p className="text-[17px] text-[#999] leading-[1.7] max-w-[440px]">
-          AI-powered experiments — designed, built, and shipped with
-          nothing but an idea and a conversation.
+          Fun projects that make learning an adventure — built for
+          kids who'd rather play than study.
         </p>
       </div>
 
@@ -32,9 +32,21 @@ function App() {
               rel="noopener noreferrer"
               className="group rounded-2xl border border-[#e8e8e8] overflow-hidden hover:border-[#ddd] hover:shadow-[0_12px_48px_rgba(0,0,0,0.06)] transition-all duration-300"
             >
-              {/* Thumbnail — browser mockup */}
-              <div className="bg-[#f7f7f7] px-7 pt-7 group-hover:bg-[#f3f3f3] transition-colors duration-300">
-                <BrowserMockup icon={project.icon} />
+              {/* Thumbnail */}
+              <div className="bg-[#f7f7f7] group-hover:bg-[#f3f3f3] transition-colors duration-300 overflow-hidden">
+                {project.icon === 'math' ? (
+                  <div className="h-[260px] flex items-center justify-center">
+                    <img src="/blockmath-thumb.png" alt="Block Math characters" className="h-full w-full object-cover" />
+                  </div>
+                ) : project.icon === 'story' ? (
+                  <div className="h-[260px] flex items-center justify-center">
+                    <img src="/fableforge-thumb.png" alt="FableForge adventure" className="h-full w-full object-cover" />
+                  </div>
+                ) : (
+                  <div className="h-[260px] flex items-center justify-center">
+                    <img src="/stopmagic-thumb.png" alt="Stop Magic dinosaur toy" className="h-full w-full object-cover" />
+                  </div>
+                )}
               </div>
 
               {/* Info */}
