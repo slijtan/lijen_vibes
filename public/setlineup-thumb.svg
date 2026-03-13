@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" fill="none">
+  <!-- Background -->
+  <rect width="600" height="520" fill="#f0f4f0"/>
+
+  <!-- Giant cropped baseball - center at bottom-right corner -->
+  <g transform="translate(560, 500)">
+    <!-- Baseball body -->
+    <circle cx="0" cy="0" r="400" fill="#FAFAF8" stroke="#E8E4DF" stroke-width="2.5"/>
+
+    <!-- Inner shadow ring -->
+    <circle cx="0" cy="0" r="395" fill="none" stroke="#F0EDE8" stroke-width="1.5"/>
+
+    <!-- Left stitching curve (scaled to r=400) -->
+    <path d="M-155,-365 C-210,-260 -235,-130 -210,0 C-185,130 -130,260 -50,365"
+          fill="none" stroke="#C83C2E" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Left stitch marks -->
+    <line x1="-180" y1="-315" x2="-152" y2="-305" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-203" y1="-262" x2="-175" y2="-254" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-220" y1="-210" x2="-192" y2="-203" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-232" y1="-157" x2="-204" y2="-152" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-238" y1="-105" x2="-210" y2="-101" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-238" y1="-52" x2="-210" y2="-50" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-234" y1="0" x2="-206" y2="1" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-226" y1="52" x2="-198" y2="52" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-213" y1="105" x2="-185" y2="103" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-195" y1="157" x2="-167" y2="153" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-172" y1="210" x2="-144" y2="203" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-143" y1="262" x2="-115" y2="253" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-107" y1="315" x2="-79" y2="304" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Right stitching curve (scaled to r=400) -->
+    <path d="M155,-365 C210,-260 235,-130 210,0 C185,130 130,260 50,365"
+          fill="none" stroke="#C83C2E" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Right stitch marks -->
+    <line x1="152" y1="-305" x2="180" y2="-315" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="175" y1="-254" x2="203" y2="-262" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="192" y1="-203" x2="220" y2="-210" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="204" y1="-152" x2="232" y2="-157" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="210" y1="-101" x2="238" y2="-105" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="210" y1="-50" x2="238" y2="-52" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="206" y1="1" x2="234" y2="0" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="198" y1="52" x2="226" y2="52" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="185" y1="103" x2="213" y2="105" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="167" y1="153" x2="195" y2="157" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="144" y1="203" x2="172" y2="210" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="115" y1="253" x2="143" y2="262" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="79" y1="304" x2="107" y2="315" stroke="#C83C2E" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+</svg>

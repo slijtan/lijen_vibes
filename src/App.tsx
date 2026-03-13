@@ -33,20 +33,14 @@ function App() {
               className="group rounded-2xl border border-[#e8e8e8] overflow-hidden hover:border-[#ddd] hover:shadow-[0_12px_48px_rgba(0,0,0,0.06)] transition-all duration-300"
             >
               {/* Thumbnail */}
-              <div className="bg-[#f7f7f7] group-hover:bg-[#f3f3f3] transition-colors duration-300 overflow-hidden">
-                {project.icon === 'math' ? (
-                  <div className="h-[260px] flex items-center justify-center">
-                    <img src="/blockmath-thumb.png" alt="Block Math characters" className="h-full w-full object-cover" />
-                  </div>
-                ) : project.icon === 'story' ? (
-                  <div className="h-[260px] flex items-center justify-center">
-                    <img src="/fableforge-thumb.png" alt="FableForge adventure" className="h-full w-full object-cover" />
-                  </div>
-                ) : (
-                  <div className="h-[260px] flex items-center justify-center">
-                    <img src="/stopmagic-thumb.png" alt="Stop Magic dinosaur toy" className="h-full w-full object-cover" />
-                  </div>
-                )}
+              <div className="bg-[#f7f7f7] group-hover:bg-[#f3f3f3] transition-colors duration-300 overflow-hidden h-[260px]">
+                <img
+                  src={
+                    { math: '/blockmath-thumb.png', story: '/fableforge-thumb.png', animation: '/stopmagic-thumb.png', lineup: '/setlineup-thumb.svg' }[project.icon]
+                  }
+                  alt={project.name}
+                  className="h-full w-full object-cover"
+                />
               </div>
 
               {/* Info */}

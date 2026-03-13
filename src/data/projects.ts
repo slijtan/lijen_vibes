@@ -4,7 +4,7 @@ export interface Project {
   tagline: string
   description: string
   url: string
-  icon: 'math' | 'story' | 'animation'
+  icon: 'math' | 'story' | 'animation' | 'lineup'
 }
 
 export const projects: Project[] = [
@@ -34,5 +34,14 @@ export const projects: Project[] = [
       'Turn everyday toys into animated films, frame by frame. AI-powered hand removal and an intuitive creator make stop motion accessible to anyone with a phone and an imagination.',
     url: 'https://stopmagic.fun',
     icon: 'animation',
+  },
+  {
+    id: 'setlineup',
+    name: 'Set Lineup',
+    tagline: 'Coaching Tool',
+    description:
+      'A lineup builder for little league coaches that juggles player preferences, position rotations, and fair play — so every kid gets their shot and game day runs smooth.',
+    url: 'https://setlineup.fun',
+    icon: 'lineup',
   },
 ]
