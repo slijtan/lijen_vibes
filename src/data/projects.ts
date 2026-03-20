@@ -4,7 +4,7 @@ export interface Project {
   tagline: string
   description: string
   url: string
-  icon: 'math' | 'story' | 'animation' | 'lineup'
+  icon: 'math' | 'story' | 'animation' | 'lineup' | 'battle'
 }
 
 export const projects: Project[] = [
@@ -43,5 +43,14 @@ export const projects: Project[] = [
       'A lineup builder for little league coaches that juggles player preferences, position rotations, and fair play — so every kid gets their shot and game day runs smooth.',
     url: 'https://setlineup.fun',
     icon: 'lineup',
+  },
+  {
+    id: 'whowouldwin',
+    name: 'Who Would Win?',
+    tagline: 'Epic Battles',
+    description:
+      'Epic battles as big as your imagination. Pick any topic, get 16 AI-generated characters, and watch them clash in an illustrated tournament bracket — complete with stats, battle narratives, and a champion crowned at the end.',
+    url: 'https://whowouldwin.fun',
+    icon: 'battle',
   },
 ]
