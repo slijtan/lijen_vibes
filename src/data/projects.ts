@@ -4,7 +4,7 @@ export interface Project {
   tagline: string
   description: string
   url: string
-  icon: 'math' | 'story' | 'animation' | 'lineup' | 'battle'
+  icon: 'math' | 'story' | 'animation' | 'lineup' | 'battle' | 'stats'
 }
 
 export const projects: Project[] = [
@@ -52,5 +52,14 @@ export const projects: Project[] = [
       'Epic battles as big as your imagination. Pick any topic, get 16 AI-generated characters, and watch them clash in an illustrated tournament bracket — complete with stats, battle narratives, and a champion crowned at the end.',
     url: 'https://whowouldwin.fun',
     icon: 'battle',
+  },
+  {
+    id: 'ucstats',
+    name: 'UC Stats',
+    tagline: 'Data Explorer',
+    description:
+      'California high school UC acceptance rates, visualized. Search any school, compare campuses, and explore admissions trends across every UC — powered by real data from the UC system.',
+    url: 'https://d2ejnmunvwq53l.cloudfront.net',
+    icon: 'stats',
   },
 ]

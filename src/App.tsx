@@ -35,7 +35,7 @@ function App() {
               {/* Thumbnail */}
               <div className="bg-[#f7f7f7] group-hover:bg-[#f3f3f3] transition-colors duration-300 overflow-hidden h-[260px]">
                 <img
-                  src={({ math: '/blockmath-thumb.png', story: '/fableforge-thumb.png', animation: '/stopmagic-thumb.png', lineup: '/setlineup-thumb.svg', battle: '/whowouldwin-thumb.png' } as Record<string, string>)[project.icon]}
+                  src={({ math: '/blockmath-thumb.png', story: '/fableforge-thumb.png', animation: '/stopmagic-thumb.png', lineup: '/setlineup-thumb.svg', battle: '/whowouldwin-thumb.png', stats: '/ucstats-thumb.png' } as Record<string, string>)[project.icon]}
                   alt={project.name}
                   className="h-full w-full object-cover"
                 />
